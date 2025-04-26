@@ -7,6 +7,7 @@ import MobileMenu from "../components/MobileMenu";
 const Home = () => {
   return (
     <main className="min-h-screen bg-gray-100">
+      {/* <Header /> */}
       <MobileMenu />
       <div className="flex justify-center">
         <input

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <section className="flex items-center justify-evenly">
+      <section className="flex items-center justify-evenly bg-slate-500">
         <div className="flex items-center font-bold text-lg">MAKABRA</div>
         <div className="flex ml-8">
           <Link to="/cart">

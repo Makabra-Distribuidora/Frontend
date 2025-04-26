@@ -7,8 +7,8 @@ const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="px-4">
-      <div className="flex justify-between items-center">
+    <header className="mb-7">
+      <div className="flex justify-between items-center bg-slate-400 px-4">
         <img className="w-24" src="LogoMakabra.png" alt="Logo de Makabra" />
         <h1 className="text-xl font-bold">Makabra</h1>
 
